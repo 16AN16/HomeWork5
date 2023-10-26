@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        header {
+            width: 100%;
+            height: 300px;
+            background: url("images/VolGal.png")repeat-x center bottom;
+
+        }
+
+        h1 {
+            font-family: cursive;
+            font-size: 70px;
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 250px;
+            color: #f5d1e0;
+        }
+
+        nav {
+            display: block;
+            width: 100%;
+
+        }
+
+        .one ul {
+            padding: 1em 0;
+            background: #fab7d3;
+        }
+
+        .one a {
+            padding: 1em;
+            background: rgba(177, 152, 145, .3);
+            border-right: 1px solid #d390bd;
+            color: #675369;
+            text-decoration: none;
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        .one a:hover {
+            background: #ff84d6;
+        }
+
+        .one li {
+            display: inline;
+        }
+
+        h2 {
+            font-family: cursive;
+            font-size: 30px;
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+
+            color: #675369;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 10px 20px;
+        }
+
+        .flex-element {
+            width: 200px;
+            display: inline-block;
+            /* Строчно-блочный элемент */
+            overflow: hidden;
+            /* Скрываем всё за контуром */
+        }
+
+        .flex-container1 {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 10px 20px;
+            flex-wrap: wrap
+        }
+
+        .flex img {
+            transition: 1s;
+            /* Время эффекта */
+
+        }
+
+        .flex img:hover {
+            transform: scale(1.1);
+            /* Увеличиваем масштаб */
+            display: block;
+            /* Убираем небольшой отступ снизу */
+        }
+    </style>
+</head>
+
+</html>
+
+<body>
+    <header>
+        <h1>Magic gallery</h1>
+    </header>
+    <nav class="one">
+        <ul>
+            <li><a href="#"><i class="fa fa-home fa-fw"></i>Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <h2> Magic Animals</h2>
+
+    <div class="flex-container">
+        <div class="flex-element"> <img src="images/ani1.png" alt="Изображение " width="200" height="200">
+        </div class="flex-element">
+        <div class="flex-element"><img src="images/ani2.png" alt="Изображение" width="200" height="200"></div
+            class="flex-element">
+        <div class="flex-element"><img src="images/ani3.png" alt="Изображение " width="200" height="200"></div
+            class="flex-element">
+        <div class="flex-element"> <img src="images/ani4.png" alt="Изображение" width="200" height="200">
+        </div class="flex-element">
+        <div class="flex-element"> <img src="images/ani6.png" alt="Изображение " width="200" height="200">
+        </div class="flex-element">
+    </div class="flex-container">
+
+    <h2> Magic subject </h2>
+    <div class="flex-container1">
+        <div class="flex"> <img src="images/1_6.png" alt="Изображение " width="285" height="300">
+        </div class="flex">
+        <div class="flex"><img src="images/2_6.png" alt="Изображение" width="285" height="300"></div class="flex">
+        <div class="flex"><img src="images/3_3.png" alt="Изображение " width="285" height="300"></div class="flex">
+        <div class="flex"> <img src="images/4_2.png" alt="Изображение" width="285" height="300">
+        </div class="flex">
+        <div class="flex"> <img src="images/5_4.png" alt="Изображение " width="285" height="300">
+        </div class="flex">
+        <div class="flex"> <img src="images/6_3.png" alt="Изображение " width="285" height="300">
+
+        </div class="flex">
+        <div class="flex"> <img src="images/7.png" alt="Изображение " width="285" height="300">
+        </div class="flex">
+        <div class="flex"> <img src="images/8.png" alt="Изображение " width="285" height="300">
+        </div class="flex">
+
+    </div class="flex-container1">
+</body>
